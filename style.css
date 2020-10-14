@@ -79,10 +79,6 @@ h4 {
     margin: 40px 40px;
   }
 
-  header nav {
-    max-width: 10px;
-  }
-
   header nav ul li a {
     text-decoration: none;
     margin: 20px;
