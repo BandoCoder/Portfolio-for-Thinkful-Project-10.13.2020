@@ -1,0 +1,117 @@
+
+/*Basic styling for entire webpage*/
+body {
+  background-image: url(images/webpage-background.jpg);
+
+  background-attachment: fixed;
+  font-family: 'Krona One', sans-serif;
+  color: rgb(187, 187, 187);
+}
+main {
+  background-color: #000000bb;
+  text-align: center;
+  padding: 30px;
+  border-radius: 25px;
+  line-height: 1.5;
+
+}
+.header-1 {
+  text-align: center;
+}
+header nav {
+  background-color: rgba(0, 0, 0, 0.705);
+  border-radius: 25px;
+}
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: beige;
+  padding: 10px;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  padding: 7px;
+}
+img {
+  width: 30%;
+}
+.header-2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+#goals {
+  font-size: 11px;
+  margin: 5px;
+}
+
+p {
+  font-size: 13px;
+}
+
+#goals h4 {
+  text-align: center;
+}
+#goals li {
+  list-style-position: inside;
+  text-align: left;
+}
+
+ul  {
+  padding-left: 5px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.projectContent img {
+  max-width: 300px;
+  max-height: 300px;
+  margin-top: 30px;
+}
+
+@media all and (min-width: 870px) {
+  main {
+    line-height: 2.5;
+  }
+
+  header nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 2px;
+  }
+  header nav ul {
+    flex-direction: row;
+  }
+  header {
+    margin: 80px;
+  }
+  
+  img {
+    height: 40%;
+    width: 40%;
+  }
+  .header-2 {
+    flex-direction: row;
+  }
+  .header-2 p {
+    padding-top: 10px;
+  }
+  #goals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-size: 16px;
+  }
+  li {
+    text-align: left;
+  }
+  p {
+    font-size: 16px;
+  }
+
+}
