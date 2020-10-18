@@ -100,7 +100,6 @@ h4 {
 
 #projects .project {
   flex: 1;
-  margin: 20px 0;
 }
 
 ul {
@@ -147,7 +146,6 @@ a:active {
   header nav ul li a {
     text-decoration: none;
     margin: 20px;
-    padding: 2px;
   }
   header nav ul {
     flex-direction: row;
@@ -198,7 +196,7 @@ a:active {
 }
 li {
   text-align: center;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 #about div p {
   font-size: 14px;
@@ -206,6 +204,10 @@ li {
 
 #about h4 {
   font-size: 20px;
+}
+
+#projects .project a {
+  margin-right: 19px;
 }
 
 }
