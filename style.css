@@ -77,6 +77,10 @@ h4 {
   font-size: 11px;
 }
 
+#about h4 {
+  font-size: 12px;
+}
+
 .projectContent img {
   max-width: 300px;
   max-height: 300px;
@@ -199,4 +203,9 @@ li {
 #about div p {
   font-size: 14px;
 }
+
+#about h4 {
+  font-size: 20px;
+}
+
 }
