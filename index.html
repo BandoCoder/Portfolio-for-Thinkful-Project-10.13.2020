@@ -2,7 +2,6 @@
 <html lang="en">
   <!--This section holds all the metadata and links to all the fonts used.-->
   <head>
-    <html>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Bradford Bossen (Engineer)</title>
@@ -20,7 +19,6 @@
               <nav>
                 <ul id="menu">
                   <li><a href="#home">Home</a></li>
-                  <li><a href="#goals">Goals</a></li>
                   <li><a href="#about">Bio</a></li>
                   <li><a href="#projects">Portfolio</a></li>
                   <li><a href="#contact">Contact</a></li>
@@ -30,14 +28,16 @@
             <p>Software Engineer</p>
           </header>
       <hr>
-          <header class = "header-2">
-           <h2>“Do what you can, with what you have, where you are.”</h2>
-             <p>– Theodore Roosevelt</p>
-          </header>
-
-      <hr>
       <!--Second Bubble: Article class used for semantics-->
-      <h4>I am a Software Engineer, currently residing in Victorville, CA</h4>
+    <article id="about">
+        <h3>Bio</h3>
+          <div>
+              <h4>"Offering top tier skills to meet your development needs"</h4>  <p>From the time I first learned to use the dev tools inside chrome, I couldn't stop looking at code. From interactive web apps to your own web store, my goal is to make your vision come true. I am a full stack developer with experience in other technical fields that help me design exactly what you need. Researching new technologies is something I use to advance my skills as a developer while keeping up to date with industry standards. A creative approach to problem-solving is something I have developed to ensure professional productivity remains my top priority.</p>
+              
+              <p>Aside from coding, I enjoy spending quality time with my family. As a musician, I enjoy writing music and practicing my sound design on various personal projects. We are full-time RVers who like to travel and experience new places on a deep level.</p>
+          </div>
+        </article>
+
       <article id="goals">
           <div class="goal-list">
             <h4>My Goals Are:</h4>
@@ -50,38 +50,62 @@
           </div>
           <div class="step_list">
             <h4>Services Offered:</h4>
-              <ol>
+              <ul>
                 <li>Web Development</li>
                 <li>Software Engineereing</li>
-                <li>Audio Engineering</li>
+                <li>Front End Design</li>
                 <li>Back End Configuration</li>
-              </ol>
+              </ul>
           </div>
       </article>
 
       <hr>
       <!--Third Bubble: Article class used for semantics-->
-      <article id="about">
-        <h3>Bio</h3>
-          <div>
-            <h5>"I grew up in San Diego, CA."</h5>
-              <p>I've always had an interest in computers, building my first tower when I was around 13 years old.  From there I learned about troubleshooting basic problems, and upgrading hardware.  As a musician, I gained experience in repairing my own instruments, amplifires, and basic audio engineering: this led me to pursue a carrer in the audio world.  After getting married, I craved a more stable profession that still challenged my skills as a problem solver; I worked for a moving company.  As a Foreman, I honed my skills as a leader and learned how to handle stressful situations in a professional way.  Now I have come full circle, and I will be taking my knowlege of tech to new heights as a software engineer.</p>
-          </div>
-        </article>
-
-      <hr>
       
-      <article id="projects">
-        <h3>Projects</h3>
-            <div class ="projectContent">
-              <h4>* FreeAW *</h4>
-                <div class="DAW_description">
-                    <p>Developed a free online digital audio workstation (DAW) called "FreeAW" that allows people who do not have access to apple products or thier own native DAW to produce music or design sounds.</p>
-                  <img src="images\StockImagePortolioProject.jpg" alt="Stock picture">
-              </div>
+      <section id="projects">
+        <div class="project">
+          <h3>Web Based DAW</h3>
+          <img src="https://via.placeholder.com/150" alt="">
+          <p>Free online DAW</p>
+            <ul>
+              <li>Javascript</li>
+              <li>Html</li>
+              <li>CSS</li>
+            </ul>
+            <div class = "vl">  
+              <a href="#">GitRepo</a>
             </div>
-          <a href="www.freeaw.org">www.freeaw.org</a>
-      </article>
+            <a href="#">Live App</a>
+        </div>
+        <div class="project">
+          <h3>API</h3>
+          <img src="https://via.placeholder.com/150" alt="">
+          <p>API Capstone</p>
+            <ul>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Node.js</li>
+            </ul>
+            <div class="vl">
+              <a href="#">GitRepo</a>
+            </div>
+          <a href="#">Live App</a>
+        </div>
+        <div class="project">
+          <h3>Phone App</h3>
+          <img src="https://via.placeholder.com/150" alt="">
+          <p>React Capstone</p>
+            <ul>
+              <li>React</li>
+              <li>Javascript</li>
+              <li>HTML</li>
+            </ul>
+            <div class= "vl">
+              <a href="#">GitRepo</a>
+            </div>
+          <a href="#">Live App</a>
+        </div>
+      </section>
       
       <hr>
       
@@ -102,6 +126,7 @@
               <!--linked in link was broken-->
               <a href="https://www.linkedin.com/in/bradfordbossen/" target= "_blank">LinkedIn</a>
               <a href="https://github.com/BandoCoder" target= "_blank">GitHub</a>
+              <a href="mailto:sparticus978@gmail.com">Email</a>
           </div>
       </footer>
 
