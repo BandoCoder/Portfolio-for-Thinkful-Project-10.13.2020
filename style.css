@@ -184,19 +184,6 @@ a:active {
   flex-direction: row;
 }
 
-#projects ul {  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 80%;
-  margin-left: 50px;
-
-
-}
-li {
-  text-align: center;
-  margin-right: 0px;
 }
 #about div p {
   font-size: 14px;
@@ -205,9 +192,10 @@ li {
 #about h4 {
   font-size: 20px;
 }
-
-#projects .project a {
-  margin-right: 19px;
+.vl {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 }
