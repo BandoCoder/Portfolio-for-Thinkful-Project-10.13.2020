@@ -2,136 +2,195 @@
 <html lang="en">
   <!--This section holds all the metadata and links to all the fonts used.-->
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Bradford Bossen (Engineer)</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
   </head>
-<!--The body holds what actually displays in the web browser.-->
+  <!--The body holds what actually displays in the web browser.-->
   <body>
     <main>
       <!--First Bubble:  Headers are split in two for styling purposes-->
-          <header class = "header-1">
-            <h1 id = "home">Bradford Jewell Bossen</h1>
-              <nav>
-                <ul id="menu">
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#about">Bio</a></li>
-                  <li><a href="#projects">Portfolio</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-              </nav>
-            <img src="images/portfolio-picture.jpg" alt="Image of Bradford">
-            <p>Software Engineer</p>
-          </header>
-      <hr>
-      <!--Second Bubble: Article class used for semantics-->
-    <article id="about">
-        <h3>Bio</h3>
-          <div>
-              <h4>"Offering top tier skills to meet your development needs."</h4>  <p>From the time I first learned to use the dev tools inside chrome, I couldn't stop looking at code. From interactive web apps to your own web store, my goal is to make your vision come true. I am a full stack developer with experience in other technical fields that help me design exactly what you need. Researching new technologies is something I use to advance my skills as a developer while keeping up to date with industry standards. A creative approach to problem-solving is something I have developed to ensure professional productivity remains my top priority.</p>
-              
-              <p>Aside from coding, I enjoy spending quality time with my family. As a musician, I enjoy writing music and practicing my sound design on various personal projects. We are full-time RVers who like to travel and experience new places on a deep level.</p>
-          </div>
-        </article>
+      <header class="header-1">
+        <img
+          class="profilePic"
+          src="images/portfolio-picture.jpg"
+          alt="Image of Bradford"
+        />
+        <h1 id="home">Bradford Jewell Bossen</h1>
+        <p>Software Engineer</p>
+        <span>"Offering top tier skills to meet your development needs."</span>
+      </header>
 
-      <article id="goals">
-          <div class="goal-list">
-            <h4>My Goals Are:</h4>
-              <ul>
-                <li>To build effective web applications.</li>
-                <li>To further my knowledge of computer science.</li>
-                <li>Create products that have an impact.</li>
-                <li>Build a better life with my family.</li>
-              </ul>
-          </div>
-          <div class="step_list">
-            <h4>Services Offered:</h4>
-              <ul>
-                <li>Web Development</li>
-                <li>Software Engineering</li>
-                <li>Front End Design</li>
-                <li>Back End Configuration</li>
-              </ul>
-          </div>
+      <hr />
+      <!--Second Bubble: Article class used for semantics-->
+      <article id="about">
+        <h2>Bio</h2>
+        <div>
+          <p>
+            --From the time I first learned to use the dev tools inside chrome,
+            I couldn't stop looking at code. From interactive web apps to your
+            own web store, my goal is to make your vision come true. I am a full
+            stack developer with experience in other technical fields that help
+            me design exactly what you need. Researching new technologies is
+            something I use to advance my skills as a developer while keeping up
+            to date with industry standards. A creative approach to
+            problem-solving is something I have developed to ensure professional
+            productivity remains my top priority.--
+          </p>
+          <br />
+          <p>
+            --Aside from coding, I enjoy spending quality time with my family.
+            As a musician, I enjoy writing music and practicing my sound design
+            on various personal projects. We are full-time RVers who like to
+            travel and experience new places on a deep level.--
+          </p>
+        </div>
       </article>
 
-      <hr>
+      <article id="goals">
+        <div class="goal_list">
+          <h4>My Goals Are:</h4>
+          <ul>
+            <li>To build effective web applications.</li>
+            <li>To further my knowledge of computer science.</li>
+            <li>Create products that have an impact.</li>
+            <li>Build a better life with my family.</li>
+          </ul>
+        </div>
+        <div class="step_list">
+          <h4>Services Offered:</h4>
+          <ul>
+            <li>Web Development</li>
+            <li>Software Engineering</li>
+            <li>Front End Design</li>
+            <li>Back End Configuration</li>
+          </ul>
+        </div>
+      </article>
+
+      <hr />
       <!--Third Bubble: Article class used for semantics-->
-      
-      <section id="projects">
-        <div class="project">
-          <h3>Web-Based DAW</h3>
-          <img src="https://via.placeholder.com/150" alt="">
-          <p>Free online DAW</p>
+      <article>
+        <h2>Projects</h2>
+        <section id="projects">
+          <div class="project">
+            <h3>BAP</h3>
+            <a href="https://bap-capstone1-bandocoder.vercel.app/"
+              ><img src="./images/bapscreen.PNG" alt="Screenshot of BAP app"
+            /></a>
+
+            <p>Web-based drum sequencer</p>
             <ul>
               <li>Javascript</li>
               <li>Html</li>
               <li>CSS</li>
-            </ul>
-            <div class = "vl">  
-              <a href="#">Git Repo</a>
-              <a href="#">Live App</a>
-            </div>
-        </div>
-        <div class="project">
-          <h3>API</h3>
-          <img src="https://via.placeholder.com/150" alt="">
-          <p>API Capstone</p>
-            <ul>
-              <li>Javascript</li>
+              <li>Tone.js</li>
               <li>React</li>
-              <li>Node.js</li>
+              <li>Node</li>
+              <li>Postgres</li>
             </ul>
             <div class="vl">
-              <a href="#">Git Repo</a>
-              <a href="#">Live App</a>
+              <a
+                href="https://github.com/BandoCoder/bap-capstone1-bradfordbossen"
+                >Git Repo</a
+              >
+              <a href="https://bap-capstone1-bandocoder.vercel.app/"
+                >Live App</a
+              >
             </div>
-        </div>
-        <div class="project">
-          <h3>Phone App</h3>
-          <img src="https://via.placeholder.com/150" alt="">
-          <p>React Capstone</p>
-            <ul>
-              <li>React</li>
-              <li>Javascript</li>
-              <li>HTML</li>
-            </ul>
-            <div class= "vl">
-              <a href="#">Git Repo</a>
-              <a href="#">Live App</a>
-            </div>
-        </div>
-      </section>
-      
-      <hr>
-      
-      <!--Fourth Bubble: Footer class used for semantics, links open to new tab.-->
-        <footer id="contact">
-          <div>
-            <h3>Contact</h3>
-             <p>-I can't wait to hear from you-</p>
-                <form action="https://formspree.io/f/xqkgpbqp" method="POST">
-                  <div>
-                    <label class="emailForm">Your email: <input type="text" name="_replyto"></label>
-                  </div>
-                  <div>
-                    <label class="messageForm">Your message: <textarea name="message"></textarea></label>
-                  </div>
-                  <button type="submit">Send</button>
-                </form>
-              <!--linked in link was broken-->
-              <a href="https://www.linkedin.com/in/bradfordbossen/" target= "_blank">LinkedIn</a>
-              <a href="https://github.com/BandoCoder" target= "_blank">GitHub</a>
-              <a href="mailto:sparticus978@gmail.com">Email</a>
           </div>
-      </footer>
+          <div class="project">
+            <h3>Langellium</h3>
+            <a href="https://capstone2client.vercel.app/register"
+              ><img
+                src="./images/langscreen.PNG"
+                alt="Screenshot of Langellium app"
+            /></a>
 
+            <p>Language learning</p>
+            <ul>
+              <li>Javascript</li>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>React</li>
+              <li>Node</li>
+              <li>Postgres</li>
+            </ul>
+            <div class="vl">
+              <a href="https://github.com/BandoCoder/capstone2client"
+                >Git Repo</a
+              >
+              <a href="https://capstone2client.vercel.app/register">Live App</a>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Whispers</h3>
+            <a href="https://whispers-bandocoder.vercel.app/"
+              ><img src="./images/wispscreen.PNG" alt="Screenshot whispers app"
+            /></a>
+
+            <p>Post secrets</p>
+            <ul>
+              <li>Javascript</li>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>React</li>
+              <li>Node</li>
+              <li>Postgres</li>
+              <li>Unsplash API</li>
+            </ul>
+            <div class="vl">
+              <a href="https://github.com/BandoCoder/whispers-client"
+                >Git Repo</a
+              >
+              <a href="https://whispers-bandocoder.vercel.app/">Live App</a>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <hr />
+
+      <!--Fourth Bubble: Footer class used for semantics, links open to new tab.-->
+      <footer id="contact">
+        <div>
+          <h3>Contact</h3>
+          <span>-I can't wait to hear from you-</span>
+          <div class="linkDiv">
+            <nav>
+              <a
+                href="https://www.linkedin.com/in/bradfordbossen/"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a href="https://github.com/BandoCoder" target="_blank">GitHub</a>
+              <a href="mailto:sparticus978@gmail.com">Email</a>
+            </nav>
+          </div>
+          <form action="https://formspree.io/f/xqkgpbqp" method="POST">
+            <div>
+              <input
+                type="text"
+                name="_replyto"
+                placeholder="Your Email"
+                aria-label="your email"
+              />
+            </div>
+            <div>
+              <textarea
+                name="message"
+                placeholder="Type your message here"
+                aria-label="message"
+              ></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+          <!--linked in link was broken-->
+        </div>
+      </footer>
     </main>
-      <!--Script empty, please advise-->
+    <!--Script empty, please advise-->
     <script src="script.js"></script>
   </body>
 </html>

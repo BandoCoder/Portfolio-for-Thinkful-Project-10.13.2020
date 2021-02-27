@@ -1,201 +1,194 @@
-/*Basic styling for entire webpage*/
-body {
-  font-family: 'Krona One', sans-serif;
-  font-weight: 900;
-  color: black;
-  background-color: rgb(150, 103, 43);
-}
-main {
-  background-color: rgba(255, 255, 255, 0.26);
-  text-align: center;
-  padding: 50px;
-  border-radius: 0px;
-  line-height: 1.5;
-  margin: 10px;
-
-}
-
-h1 {
-  font-size: 15px;
-}
-
-li {
-  list-style: none;
-}
-.header-1 {
-  text-align: center;
-}
-header nav {
-  background-color: rgba(179, 179, 179, 0.705);
-  border-radius: 25px;
-  font-size: 11px;
-}
-header nav ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  color: beige;
-  padding: 10px;
-  list-style: none;
-}
-header nav ul li a {
+/* Global */
+* {
   text-decoration: none;
-  padding: 7px;
+  font-family: sans-serif;
 }
+
+body {
+  background-image: url("./images/code2.jpg");
+  background-attachment: fixed;
+  background-size: 30%;
+  padding: 10px;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.952);
+  padding: 15px;
+}
+
 img {
-  width: 30%;
-}
-.header-2 {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-}
-#goals {
-  font-size: 11px;
-  margin: 5px;
+  height: 200px;
+  width: 200px;
+  margin: auto;
 }
 
 p {
-  font-size: 13px;
+  max-width: 900px;
+  margin: auto;
 }
 
-#goals h4 {
-  text-align: center;
-}
-#goals li {
-  text-align: left;
-  font-size: 10px;
-}
-
-h4 {
+h2 {
   text-align: center;
 }
 
-#about div p {
-  text-align: left;
-  text-indent: 34px;
-  font-size: 11px;
+li {
+  font-size: 15px;
 }
 
-#about h4 {
+/* first section of the page */
+#home {
+  font-size: 23px;
+}
+
+.header-1 {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.profilePic {
+  width: 250px;
+  height: 310px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.89);
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+nav a {
+  color: bisque;
+  margin: 0px 80px;
+}
+
+/*Middle and bio with list of services*/
+#about {
+  margin: 0px 40px;
+}
+
+#goals {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  min-height: 200px;
+}
+
+.goal_list {
+  margin-right: 50px;
+}
+
+.step_list {
+  margin-left: 50px;
+}
+
+/*Projects section*/
+.project {
+  width: 200px;
+  margin: 0px 60px 40px 60px;
+  justify-content: space-between;
+}
+
+.project h3 {
+  text-align: center;
+}
+
+.project p {
   font-size: 12px;
-}
-
-.projectContent img {
-  max-width: 300px;
-  max-height: 300px;
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 #projects {
+  text-align: center;
   display: flex;
-  margin: 50px 0;
-  justify-content: space-around;
-  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+  justify-content: space-between;
 }
 
-#projects .project ul li {
+.vl {
+  background-color: rgba(0, 0, 0, 0.89);
+  padding: 10px;
+  margin: 0px 0px;
+}
+
+.vl a {
   font-size: 13px;
+  color: bisque;
+  margin: 0px 5px;
 }
 
-#projects .project {
-  flex: 1;
+/*Contact section*/
+footer {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+textarea {
+  height: 100px;
+  margin: 10px 0px;
+}
+
+input {
+  margin: 10px auto 0px auto;
+  width: fit-content;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+.linkDiv {
+  margin-top: 5px;
 }
 
 ul {
-  padding-left: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 160px;
 }
 
-header nav a:link {
-  color: white;
-}
-
-header nav a:visited {
-  color: white;
-}
-
-header nav a:hover {
-  color: red
-}
-
-a:link {
-  color: rgb(0, 224, 0)
-}
-
-a:visited {
-  color: darkmagenta
-}
-
-a:hover {
-  color: red
-}
-a:active {
-  color: pink
-}
-
-@media all and (min-width: 870px) {
-  main {
-    line-height: 2.2;
-    margin: 40px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
-
-  header nav ul li a {
-    text-decoration: none;
-    margin: 20px;
-  }
-  header nav ul {
-    flex-direction: row;
-    font-size: 18px;
-  }
-  header {
-    margin: 80px;
-  }
-  
+@media screen and (max-width: 1034px) {
   img {
-    height: 20%;
-    width: 20%;
+    height: 150px;
+    width: 150px;
   }
-  .header-2 {
-    flex-direction: row;
+
+  .project {
+    margin: 0px 20px 40px 20px;
   }
-  .header-2 p {
-    padding-top: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  #about {
+    margin: 0px 0px;
   }
   #goals {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 50px;
-    font-size: 16px;
-  }
-  #goals li {
-    text-align: left;
-    font-size: 14px;
-  }
-  p {
-    font-size: 16px;
+    flex-direction: column;
+    margin: auto;
   }
 
-#projects {
-  flex-direction: row;
-}
+  #projects {
+    flex-direction: column;
+    margin: auto;
+  }
 
-}
-#about div p {
-  font-size: 14px;
-}
+  .project {
+    margin: 30px auto;
+  }
 
-#about h4 {
-  font-size: 20px;
-}
-.vl {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+  .goal_list {
+    margin-right: 0px;
+  }
 
+  .step_list {
+    margin-left: 0px;
+  }
+
+  nav a {
+    margin: 0px 9px;
+  }
 }
