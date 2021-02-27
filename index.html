@@ -18,10 +18,6 @@
           alt="Image of Bradford"
         />
         <h1 id="home">Bradford Jewell Bossen</h1>
-        <nav>
-          <a href="#home">Home</a> <a href="#about">Bio</a>
-          <a href="#projects">Portfolio</a> <a href="#contact">Contact</a>
-        </nav>
         <p>Software Engineer</p>
         <span>"Offering top tier skills to meet your development needs."</span>
       </header>
@@ -32,22 +28,22 @@
         <h2>Bio</h2>
         <div>
           <p>
-            From the time I first learned to use the dev tools inside chrome, I
-            couldn't stop looking at code. From interactive web apps to your own
-            web store, my goal is to make your vision come true. I am a full
+            --From the time I first learned to use the dev tools inside chrome,
+            I couldn't stop looking at code. From interactive web apps to your
+            own web store, my goal is to make your vision come true. I am a full
             stack developer with experience in other technical fields that help
             me design exactly what you need. Researching new technologies is
             something I use to advance my skills as a developer while keeping up
             to date with industry standards. A creative approach to
             problem-solving is something I have developed to ensure professional
-            productivity remains my top priority.
+            productivity remains my top priority.--
           </p>
-
+          <br />
           <p>
-            Aside from coding, I enjoy spending quality time with my family. As
-            a musician, I enjoy writing music and practicing my sound design on
-            various personal projects. We are full-time RVers who like to travel
-            and experience new places on a deep level.
+            --Aside from coding, I enjoy spending quality time with my family.
+            As a musician, I enjoy writing music and practicing my sound design
+            on various personal projects. We are full-time RVers who like to
+            travel and experience new places on a deep level.--
           </p>
         </div>
       </article>
@@ -80,8 +76,11 @@
         <section id="projects">
           <div class="project">
             <h3>BAP</h3>
-            <img src="https://via.placeholder.com/150" alt="" />
-            <p>Free web-based drum sequencer</p>
+            <a href="https://bap-capstone1-bandocoder.vercel.app/"
+              ><img src="./images/bapscreen.PNG" alt="Screenshot of BAP app"
+            /></a>
+
+            <p>Web-based drum sequencer</p>
             <ul>
               <li>Javascript</li>
               <li>Html</li>
@@ -92,14 +91,24 @@
               <li>Postgres</li>
             </ul>
             <div class="vl">
-              <a href="#">Git Repo</a>
-              <a href="#">Live App</a>
+              <a
+                href="https://github.com/BandoCoder/bap-capstone1-bradfordbossen"
+                >Git Repo</a
+              >
+              <a href="https://bap-capstone1-bandocoder.vercel.app/"
+                >Live App</a
+              >
             </div>
           </div>
           <div class="project">
             <h3>Langellium</h3>
-            <img src="https://via.placeholder.com/150" alt="" />
-            <p>Language lerning app using spaced-repitition</p>
+            <a href="https://capstone2client.vercel.app/register"
+              ><img
+                src="./images/langscreen.PNG"
+                alt="Screenshot of Langellium app"
+            /></a>
+
+            <p>Language learning</p>
             <ul>
               <li>Javascript</li>
               <li>Html</li>
@@ -109,14 +118,19 @@
               <li>Postgres</li>
             </ul>
             <div class="vl">
-              <a href="#">Git Repo</a>
-              <a href="#">Live App</a>
+              <a href="https://github.com/BandoCoder/capstone2client"
+                >Git Repo</a
+              >
+              <a href="https://capstone2client.vercel.app/register">Live App</a>
             </div>
           </div>
           <div class="project">
             <h3>Whispers</h3>
-            <img src="https://via.placeholder.com/150" alt="" />
-            <p>Media app that is used to post secrets</p>
+            <a href="https://whispers-bandocoder.vercel.app/"
+              ><img src="./images/wispscreen.PNG" alt="Screenshot whispers app"
+            /></a>
+
+            <p>Post secrets</p>
             <ul>
               <li>Javascript</li>
               <li>Html</li>
@@ -124,10 +138,13 @@
               <li>React</li>
               <li>Node</li>
               <li>Postgres</li>
+              <li>Unsplash API</li>
             </ul>
             <div class="vl">
-              <a href="#">Git Repo</a>
-              <a href="#">Live App</a>
+              <a href="https://github.com/BandoCoder/whispers-client"
+                >Git Repo</a
+              >
+              <a href="https://whispers-bandocoder.vercel.app/">Live App</a>
             </div>
           </div>
         </section>
@@ -152,11 +169,19 @@
             </nav>
           </div>
           <form action="https://formspree.io/f/xqkgpbqp" method="POST">
-            <div><input type="text" name="_replyto" placeholder="Email" /></div>
+            <div>
+              <input
+                type="text"
+                name="_replyto"
+                placeholder="Your Email"
+                aria-label="your email"
+              />
+            </div>
             <div>
               <textarea
                 name="message"
                 placeholder="Type your message here"
+                aria-label="message"
               ></textarea>
             </div>
             <button type="submit">Send</button>

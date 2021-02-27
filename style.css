@@ -12,8 +12,14 @@ body {
 }
 
 main {
-  background-color: rgba(255, 255, 255, 0.904);
+  background-color: rgba(255, 255, 255, 0.952);
   padding: 15px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin: auto;
 }
 
 p {
@@ -38,10 +44,12 @@ li {
   width: fit-content;
   margin: auto;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .profilePic {
-  width: 200px;
+  width: 250px;
+  height: 310px;
 }
 
 nav {
@@ -77,7 +85,7 @@ nav a {
 
 /*Projects section*/
 .project {
-  width: 150px;
+  width: 200px;
   margin: 0px 60px 40px 60px;
   justify-content: space-between;
 }
@@ -88,6 +96,7 @@ nav a {
 
 .project p {
   font-size: 12px;
+  margin-bottom: 10px;
 }
 
 #projects {
@@ -140,6 +149,17 @@ ul {
   margin: 0;
   padding: 0;
   height: 160px;
+}
+
+@media screen and (max-width: 1034px) {
+  img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .project {
+    margin: 0px 20px 40px 20px;
+  }
 }
 
 @media screen and (max-width: 850px) {
