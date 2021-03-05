@@ -87,7 +87,7 @@ nav a {
 /*Projects section*/
 .project {
   width: 200px;
-  min-height: 400px;
+  min-height: 450px;
   margin: 0px 60px 40px 60px;
   justify-content: space-between;
 }
