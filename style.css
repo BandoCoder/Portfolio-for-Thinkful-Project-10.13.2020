@@ -33,7 +33,7 @@ h2 {
 }
 
 li {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /* first section of the page */
@@ -97,10 +97,10 @@ nav a {
 }
 
 .project p {
-  font-size: 12px;
+  font-size: 14px;
   margin: 10px auto;
-  min-height: 90px;
-  max-width: 190px;
+  min-height: 160px;
+  max-width: 220px;
   text-align: left;
 }
 
